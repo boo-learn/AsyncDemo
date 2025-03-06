@@ -23,6 +23,7 @@ async def main(urls):
         await session.close()
 
 
+# Асинхронные запросы по http
 if __name__ == "__main__":
     urls = [
         "https://www.python.org",

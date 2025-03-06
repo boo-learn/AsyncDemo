@@ -1,4 +1,4 @@
-import requests #  pip install requests
+import requests  # pip install requests
 import time
 
 
@@ -16,6 +16,7 @@ def main(urls):
     return results
 
 
+# синхронные запросы по http
 if __name__ == "__main__":
     urls = [
         "https://www.python.org",
